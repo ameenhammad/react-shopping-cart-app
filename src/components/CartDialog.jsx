@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
-import DialogActions from "@mui/material/DialogActions";
-import DialogContent from "@mui/material/DialogContent";
-import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import { useCartDialog } from "../context/CartContextProvider";
 import "../index.css";
@@ -69,21 +65,6 @@ function CartDialog() {
         >
           Total Price: Rs {totalPrice}
         </h3>
-
-        {/* <DialogContent>
-          <DialogContentText id="dialog-description">
-            This is the content of the dialog. You can add any component here,
-            such as text, forms, or images.
-          </DialogContentText>
-        </DialogContent>
-        <DialogActions>
-          <Button onClick={handleClose} color="primary">
-            Cancel
-          </Button>
-          <Button onClick={handleClose} color="primary" autoFocus>
-            Confirm
-          </Button>
-        </DialogActions> */}
       </Dialog>
     </div>
   );

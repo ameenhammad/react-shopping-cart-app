@@ -10,7 +10,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-/* ####### Header Component ####### */
 .header {
   background-color: #32689e;
   color: white;
@@ -50,17 +49,17 @@ body {
 
 @media (max-width: 768px) {
   .nav-container h1 {
-    font-size: 1.2rem;
+    font-size: 19.2px;
   }
 
   .cart-icon p {
-    font-size: 0.9rem;
+    font-size: 14.4px;
   }
 }
 
 @media (max-width: 480px) {
   .nav-container h1 {
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   .cart-icon p {
@@ -68,7 +67,7 @@ body {
   }
 
   .cart-icon {
-    gap: 0.2rem;
+    gap: 3.2px;
   }
 }
 
@@ -77,8 +76,6 @@ body {
   transition: opacity 0.3s ease;
 }
 
-/* ######## Product Component ######## */
-/* Product Grid Container */
 .product-grid {
   max-width: 1300px;
   width: 90%;
@@ -133,7 +130,6 @@ body {
 }
 
 .product-card button {
-  /* width: 100%; */
   padding: 12px;
   background-color: #1976d2;
   color: white;
@@ -193,75 +189,64 @@ body {
   }
 }
 
-/* ###### CartItem Component ###### */
-/* CartItem.css */
-
-/* Container for the entire cart item */
 .cart-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px; 
-  border-bottom: 1px solid #e0e0e0; /* Separator between items */
+  border-bottom: 1px solid #e0e0e0;
 }
 
-/* Container for image and title */
 .cart-item-image-title {
   display: flex;
   align-items: center;
-  gap: 15px; /* Space between image and title */
+  gap: 15px;
 }
 
-/* Image styling */
 .cart-item-image {
   height: 80px;
   width: 80px;
-  border-radius: 50%; /* Circular image */
-  object-fit: cover; /* Ensure the image fits properly */
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-/* Title styling */
 .cart-item-title {
   margin: 0;
   font-size: 18px;
   font-weight: 500;
 }
 
-/* Quantity control container */
 .cart-item-quantity {
   display: flex;
   align-items: center;
-  gap: 10px; /* Space between buttons and text */
+  gap: 10px;
   padding: 8px;
-  border: 1px solid #e0e0e0; /* Light border */
-  border-radius: 8px; /* Rounded corners */
-  background-color: #f9f9f9; /* Light background */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
 }
 
-/* Button styling */
 .cart-item-button {
   padding: 8px 12px;
   font-size: 16px;
   font-weight: 600;
-  color: black; /* Button text color */
+  color: black;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-/* Quantity text styling */
 .cart-item-quantity-text {
   margin: 0;
   font-size: 18px;
   font-weight: 500;
-  color: #333; /* Dark text */
+  color: #333;
 }
 
-/* Price styling */
 .cart-item-price {
   margin: 0;
   font-size: 18px;
   font-weight: 600;
-  color: #1976d2; /* MUI primary color */
+  color: #1976d2;
 }

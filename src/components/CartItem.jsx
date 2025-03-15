@@ -1,6 +1,6 @@
 import React from "react";
 import "../index.css";
-import { useCartItemContext } from "../context/CartItemContext"; // Correct import
+import { useCartItemContext } from "../context/CartItemContext";
 import CloseIcon from "@mui/icons-material/Close";
 
 function CartItem({ id, img, title, quantity, price }) {
