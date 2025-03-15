@@ -76,6 +76,7 @@ body {
   transition: opacity 0.3s ease;
 }
 
+/* ######## Product Component ######## */
 .product-grid {
   max-width: 1300px;
   width: 90%;
@@ -189,6 +190,7 @@ body {
   }
 }
 
+/* ###### CartItem Component ###### */
 .cart-item {
   display: flex;
   justify-content: space-between;
